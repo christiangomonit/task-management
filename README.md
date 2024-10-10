@@ -25,44 +25,34 @@ Follow these steps to set up and run the Task Management Web App:
 
 1. **Clone the Repository**:
    Open your terminal (Command Prompt, PowerShell, etc.) and run:
-   \`\`\`
    git clone https://github.com/christiangomonit/task-management.git
-   \`\`\`
 
 2. **Navigate to the Project Directory**:
-   \`\`\`
    cd task-management
-   \`\`\`
 
 3. **Create a Virtual Environment**:
    (Optional but recommended)
-   \`\`\`
    python -m venv venv
-   \`\`\`
 
 4. **Activate the Virtual Environment**:
    - **Windows**:
-     \`\`\`
+
      venv\Scripts\activate
-     \`\`\`
+
    - **macOS/Linux**:
-     \`\`\`
+
      source venv/bin/activate
-     \`\`\`
+
 
 5. **Install Required Packages**:
    Install the necessary Python packages using pip:
-   \`\`\`
    pip install -r requirements.txt
-   \`\`\`
    If you don’t have a `requirements.txt`, you can create one with:
-   \`\`\`
    pip freeze > requirements.txt
-   \`\`\`
 
 6. **Set Up the MySQL Database**:
    - Open your MySQL command line and create a new database:
-     \`\`\`
+
      CREATE DATABASE mydb;
      USE mydb;
 
@@ -72,13 +62,11 @@ Follow these steps to set up and run the Task Management Web App:
          description TEXT,
          due_date DATE
      );
-     \`\`\`
+
    - Adjust the database connection settings in your application code if necessary.
 
 7. **Run the Application**:
-   \`\`\`
    python app.py
-   \`\`\`
 
 8. **Access the Application**:
    Open your web browser and go to `http://127.0.0.1:5000/`.
