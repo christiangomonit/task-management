@@ -1,0 +1,9 @@
+# Ignore database files
+*.db
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore .env files
+.env
