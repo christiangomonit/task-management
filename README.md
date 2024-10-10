@@ -3,14 +3,13 @@
 
 ## Overview
 
-This is a simple Task Management Web App built with Flask, MySQL, HTML, and CSS. The app allows users to add, edit, and delete tasks. It provides a user-friendly interface to manage tasks efficiently.
+This is a simple Task Management Web App built with Flask, MySQL, HTML, and Bootstrap. The app allows users to add, edit, and delete tasks. It provides a user-friendly interface to manage tasks efficiently.
 
 ## Features
 
 - Add new tasks
 - Edit existing tasks
 - Delete tasks
-- View all tasks in a structured format
 
 ## Prerequisites
 
@@ -27,13 +26,12 @@ Follow these steps to set up and run the Task Management Web App:
 1. **Clone the Repository**:
    Open your terminal (Command Prompt, PowerShell, etc.) and run:
    \`\`\`
-   git clone https://github.com/yourusername/task-management-web-app.git
+   git clone https://github.com/christiangomonit/task-management.git
    \`\`\`
-   Replace `yourusername` with your GitHub username.
 
 2. **Navigate to the Project Directory**:
    \`\`\`
-   cd task-management-web-app
+   cd task-management
    \`\`\`
 
 3. **Create a Virtual Environment**:
@@ -90,11 +88,3 @@ Follow these steps to set up and run the Task Management Web App:
 - **Add Task**: Click on the "Add Task" button and fill out the form to add a new task.
 - **Edit Task**: Click the "Edit" button next to any task to modify it.
 - **Delete Task**: Click the "Delete" button next to any task to remove it.
-
-## Contributing
-
-If you want to contribute to this project, feel free to fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
